@@ -1,0 +1,92 @@
+
+
+
+body{
+	
+	/* background: url("../images/background.jpg") ; Добавляем фон 
+	
+	background: url("../images/cloud.png");*/
+	
+	 background: url(../images/background.jpg) fixed repeat-y 100% 0; 
+	
+/*	background-color: inherit;
+	background-attachment: fixed;*/
+	background-size: cover;
+	
+	    
+}
+
+.clouds{
+	background: url("../images/cloud.png");
+	background-position-y: 150px;
+	background-size: cover;
+}
+
+.btn.btn-primary.btn-lg{
+background-color:
+rgb(16, 37, 56) !important;
+ --link-color:rgb(224, 213, 209) !important;
+ --link-color-hover:rgb(224, 213, 209) !important;
+ --link-color-active:rgb(224, 213, 209) !important;
+ --visited-color:rgb(224, 213, 209) !important; 
+--visited-color-hover:rgb(224, 213, 209) !important;
+ --visited-color-active:rgb(224, 213, 209) !important;
+border-color: rgb(35, 67, 96) !important;}
+
+.logo{
+	height:100px;
+	width: 100px;
+	float:left;
+	margin-right: 10px;
+}
+
+.jumbotron{
+	
+	/*  background-color: rgb(132, 26, 27) !important; color: rgb(202, 183, 175) !important;
+	*/
+	background-color: inherit;
+	
+	background-size: 100% 100%;
+     /* Масштабируем фон
+	background-position-y:-200px;
+	background-repeat-y:no-repeat; */
+}
+
+.description{
+	background: #ffffff94;
+    border-radius: 20px;
+    padding: 20px;
+   /* border: 2px solid #0000004a;*/
+    margin-top: 31px;
+    margin-bottom: 21px;
+}
+
+.politic{
+	    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.politic {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    background: #fff;
+    padding: 35px;
+	border-radius: 22px;
+}
+
+.backl_button {
+    
+	margin-left:5%;
+	padding:10px;
+	margin-bottom:10px;
+    background: #fff;
+	display: inline-block;
+    
+	border-radius: 22px;
+}
+
+p{
+	text-indent: 20px;
+}
