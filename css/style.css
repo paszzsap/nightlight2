@@ -1,0 +1,180 @@
+
+@font-face {
+    font-family: Bradobrei; /* Имя шрифта */
+    src: url(../fonts/Bradobrei.otf); /* Путь к файлу со шрифтом */
+   }
+
+@font-face {
+    font-family: RoundsBlack; /* Имя шрифта */
+    src: url(../fonts/RoundsBlack.otf); /* Путь к файлу со шрифтом */
+   }
+   
+body{
+	
+	/* background: url("../images/background.jpg") ; Добавляем фон 
+	background-size: cover;
+	background: url("../images/cloud.png");*/
+	
+	 background: url(../images/background.jpg); 
+	
+/*	background-color: inherit;*/
+	background-attachment: fixed;
+	
+	
+	    
+}
+
+.clouds{
+	background: url("../images/cloud.png");
+	background-position-y: 150px;
+	background-size: cover;
+}
+
+.btn.btn-primary.btn-lg{
+background-color:
+rgb(16, 37, 56) !important;
+ --link-color:rgb(224, 213, 209) !important;
+ --link-color-hover:rgb(224, 213, 209) !important;
+ --link-color-active:rgb(224, 213, 209) !important;
+ --visited-color:rgb(224, 213, 209) !important; 
+--visited-color-hover:rgb(224, 213, 209) !important;
+ --visited-color-active:rgb(224, 213, 209) !important;
+border-color: rgb(35, 67, 96) !important;}
+
+.logo{
+	height:100px;
+	width: 100px;
+	float:left;
+	margin-right: 10px;
+}
+
+.jumbotron{
+	
+	/*  background-color: rgb(132, 26, 27) !important; color: rgb(202, 183, 175) !important;
+	*/
+	background-color: inherit;
+	
+	background-size: 100% 100%;
+     /* Масштабируем фон
+	background-position-y:-200px;
+	background-repeat-y:no-repeat; */
+}
+
+.description {
+  
+}
+
+.politic{
+	    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.politic {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    background: #fff;
+    padding: 35px;
+	border-radius: 22px;
+}
+
+.backl_button {
+    
+	margin-left:5%;
+	padding:10px;
+	margin-bottom:10px;
+    background: #fff;
+	display: inline-block;
+    
+	border-radius: 22px;
+}
+
+p{
+	text-indent: 20px;
+}
+
+.navbar{
+	background: rgb(14, 33, 82) !important;
+	    box-shadow: 0px 1px 27px #aafeff;
+}
+
+.navbar-inverse .navbar-brand {
+
+	color: #7dd4ff;
+	
+}
+
+.bigtext{
+	     text-shadow: -6px 4px 0px #1a4073, 0px 0px 61px #fff;
+    font-family: RoundsBlack;
+    letter-spacing: 3px;
+ 
+}
+
+.jumbotron h1, .jumbotron .h1 {
+    color: #7dd4ff;
+}
+
+.span_two {
+    color: #ff338f;
+}
+
+.social_icon {
+    float: right;
+    right: 0;
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+}
+
+.left_container{
+	float:left;
+}
+.right_container{
+	float:left;
+}
+
+.left_container {
+    height: 322px;
+    width: 187px;
+    background: url(../images/phone.png);
+    background-size: 100% 100%;
+}
+
+.display {
+    height: 87%;
+    width: 87%;
+    background: url(../images/pig1.png) #3b3b3b;
+    background-size: 100%;
+    margin-top: 5%;
+    margin-left: 8%;
+    border-radius: 22px;
+    box-shadow: 0px 0px 7px #fff;
+}
+
+.google{
+	width: 110px;
+}
+
+.animals{
+    margin-top: -63px;
+    margin-bottom: -100px;
+}
+
+.phone1{
+	width: 148px;
+    float: left;
+}
+
+.phone2{
+	width: 300px;
+    float: right;
+}
+
+.leftimg{
+	float: left;
+}
+
+
+
